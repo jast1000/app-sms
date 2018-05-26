@@ -6,3 +6,17 @@
 body {
     font-family: 'NotoSans' !important;
 }
+
+.columna-mensaje, .columna-nombre {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.contenedor-pagina {
+    margin: 50px 100px;
+}
+
+.contenedor-pagina.bienvenida {
+    text-align: center;
+}
